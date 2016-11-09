@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#paragraph {
+
+padding-top: 30px;
+}
+
+body {
+
+	
+	background-color: #4bc970;
+
+}
+.container{
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 100px;
+	background: #f4f7f8;
+	margin-top: 100px;
+}
+
+.container a{
+	font-size: 1.3em;
+	font-family: ubuntu;
+}
+
+header{
+	margin-bottom: 10px;
+}
+
+p{
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+input{
+	margin-top: 50px;
+	width: 70%;
+	margin-left: 150px;
+	height: 40px;
+	
+}
+
+.winner{
+	border-radius: 10px;
+	margin-top: 20px;
+	background: #2ecc71;
+	height: 100px;
+	width: 70%;
+	margin-left: 150px;
+	color: white;
+	text-transform: uppercase;
+	line-height: 100px;
+	font-size: 2em;
+	font-family: ubuntu;
+	text-align: center;	
+	display:none;
+	background-color:green;
+
+}
+.fail{
+	border-radius: 10px;
+	margin-top: 20px;
+	background: #2ecc71;
+	height: 100px;
+	width: 70%;
+	color: white;
+	margin-left: 150px;
+	text-transform: uppercase;
+	line-height: 100px;
+	font-size: 2em;
+	font-family: ubuntu;
+	text-align: center;	
+	display:none;
+	background-color:green;
+   position: relative;
+    -webkit-animation: flash ;
+    -webkit-animation-duration: 2s; 
+    animation: flash;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+
+h2 {
+	text-align: center;
+	padding-top:30px;
+}
